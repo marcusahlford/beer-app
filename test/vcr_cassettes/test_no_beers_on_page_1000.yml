@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.punkapi.com/v2/beers?page=1000&per_page=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Thu, 26 Oct 2023 09:24:25 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '2'
+      connection:
+      - keep-alive
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - "*"
+      access-control-expose-headers:
+      - x-ratelimit-limit,x-ratelimit-remaining,content-length,origin,content-type,accept
+      age:
+      - '35958'
+      cache-control:
+      - public, max-age=14400, must-revalidate
+      etag:
+      - W/"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w"
+      strict-transport-security:
+      - max-age=15552000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-ratelimit-limit:
+      - '3600'
+      x-ratelimit-remaining:
+      - '3181'
+      x-ratelimit-reset:
+      - '1698277113'
+      x-vercel-cache:
+      - MISS
+      x-vercel-id:
+      - fra1::sfo1::qw597-1698276307400-7ce2a3da1ca2
+      x-xss-protection:
+      - 1; mode=block
+      cf-cache-status:
+      - HIT
+      accept-ranges:
+      - bytes
+      report-to:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gZcAxIbaMo4s9Urz2fNibVnUlnKIDNkoVnSuy1T63bIF6Ce53Fpi7z7ec07jpsFaajc75bJeD8WgsO7v558Ieq9B5tHDKOdXugymp7TNW0BRzCyrpFMI02bKPUToQs0DlC8%3D"}],"group":"cf-nel","max_age":604800}'
+      nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      vary:
+      - Accept-Encoding
+      server:
+      - cloudflare
+      cf-ray:
+      - 81c1a56bc8174d70-FRA
+      alt-svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: "[]"
+  recorded_at: Thu, 26 Oct 2023 09:24:25 GMT
+recorded_with: VCR 6.2.0

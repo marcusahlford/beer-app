@@ -1,0 +1,175 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.punkapi.com/v2/beers/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Thu, 26 Oct 2023 09:24:19 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - "*"
+      access-control-expose-headers:
+      - x-ratelimit-limit,x-ratelimit-remaining,content-length,origin,content-type,accept
+      age:
+      - '57072'
+      cache-control:
+      - public, max-age=14400, must-revalidate
+      etag:
+      - W/"665-a4PwNgVseDJk55YVoajv4/LcqL8"
+      strict-transport-security:
+      - max-age=15552000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-ratelimit-limit:
+      - '3600'
+      x-ratelimit-remaining:
+      - '3430'
+      x-ratelimit-reset:
+      - '1698257739'
+      x-vercel-cache:
+      - MISS
+      x-vercel-id:
+      - fra1::sfo1::9hgqv-1698255187527-2cecc0f5f48d
+      x-xss-protection:
+      - 1; mode=block
+      cf-cache-status:
+      - HIT
+      report-to:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KNYhqysjnpaGBGrEkw1pSm2lorepoj44y7BmKzDYqqiQTg4YPRqsuXpm4p8AXdDeZTw5rj8ReXltp7HTzk8Y%2BIRYIACS9sdXLpE8U26PpKyJYDICpuK%2F4Xc93tGi%2B5amPdA%3D"}],"group":"cf-nel","max_age":604800}'
+      nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      vary:
+      - Accept-Encoding
+      server:
+      - cloudflare
+      cf-ray:
+      - 81c1a547b8223825-FRA
+      content-encoding:
+      - gzip
+      alt-svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: '[{"id":1,"name":"Buzz","tagline":"A Real Bitter Experience.","first_brewed":"09/2007","description":"A
+        light, crisp and bitter IPA brewed with English and American hops. A small
+        batch brewed only once.","image_url":"https://images.punkapi.com/v2/keg.png","abv":4.5,"ibu":60,"target_fg":1010,"target_og":1044,"ebc":20,"srm":10,"ph":4.4,"attenuation_level":75,"volume":{"value":20,"unit":"litres"},"boil_volume":{"value":25,"unit":"litres"},"method":{"mash_temp":[{"temp":{"value":64,"unit":"celsius"},"duration":75}],"fermentation":{"temp":{"value":19,"unit":"celsius"}},"twist":null},"ingredients":{"malt":[{"name":"Maris
+        Otter Extra Pale","amount":{"value":3.3,"unit":"kilograms"}},{"name":"Caramalt","amount":{"value":0.2,"unit":"kilograms"}},{"name":"Munich","amount":{"value":0.4,"unit":"kilograms"}}],"hops":[{"name":"Fuggles","amount":{"value":25,"unit":"grams"},"add":"start","attribute":"bitter"},{"name":"First
+        Gold","amount":{"value":25,"unit":"grams"},"add":"start","attribute":"bitter"},{"name":"Fuggles","amount":{"value":37.5,"unit":"grams"},"add":"middle","attribute":"flavour"},{"name":"First
+        Gold","amount":{"value":37.5,"unit":"grams"},"add":"middle","attribute":"flavour"},{"name":"Cascade","amount":{"value":37.5,"unit":"grams"},"add":"end","attribute":"flavour"}],"yeast":"Wyeast
+        1056 - American Ale™"},"food_pairing":["Spicy chicken tikka masala","Grilled
+        chicken quesadilla","Caramel toffee cake"],"brewers_tips":"The earthy and
+        floral aromas from the hops can be overpowering. Drop a little Cascade in
+        at the end of the boil to lift the profile with a bit of citrus.","contributed_by":"Sam
+        Mason <samjbmason>"}]'
+  recorded_at: Thu, 26 Oct 2023 09:24:19 GMT
+- request:
+    method: get
+    uri: https://api.punkapi.com/v2/beers/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Thu, 26 Oct 2023 09:24:20 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - "*"
+      access-control-expose-headers:
+      - x-ratelimit-limit,x-ratelimit-remaining,content-length,origin,content-type,accept
+      age:
+      - '51873'
+      cache-control:
+      - public, max-age=14400, must-revalidate
+      etag:
+      - W/"665-a4PwNgVseDJk55YVoajv4/LcqL8"
+      strict-transport-security:
+      - max-age=15552000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-ratelimit-limit:
+      - '3600'
+      x-ratelimit-remaining:
+      - '3187'
+      x-ratelimit-reset:
+      - '1698261353'
+      x-vercel-cache:
+      - MISS
+      x-vercel-id:
+      - fra1::sfo1::4skzf-1698260386840-af2fd8943339
+      x-xss-protection:
+      - 1; mode=block
+      cf-cache-status:
+      - HIT
+      report-to:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ILPynvsfZIL0PcoCwFJcpJcuJX%2FMyqaYE6kwkcBuS8jUPmJuDJY9HKrWpchBT5k74u7MHQ9yZ%2BVLjvc%2FIwaxT5ibN7YO0N9Rwf0VedaWZtqiELxkk6oaf8mq1KWHKsXI9PA%3D"}],"group":"cf-nel","max_age":604800}'
+      nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      vary:
+      - Accept-Encoding
+      server:
+      - cloudflare
+      cf-ray:
+      - 81c1a548f88e3603-FRA
+      content-encoding:
+      - gzip
+      alt-svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: '[{"id":1,"name":"Buzz","tagline":"A Real Bitter Experience.","first_brewed":"09/2007","description":"A
+        light, crisp and bitter IPA brewed with English and American hops. A small
+        batch brewed only once.","image_url":"https://images.punkapi.com/v2/keg.png","abv":4.5,"ibu":60,"target_fg":1010,"target_og":1044,"ebc":20,"srm":10,"ph":4.4,"attenuation_level":75,"volume":{"value":20,"unit":"litres"},"boil_volume":{"value":25,"unit":"litres"},"method":{"mash_temp":[{"temp":{"value":64,"unit":"celsius"},"duration":75}],"fermentation":{"temp":{"value":19,"unit":"celsius"}},"twist":null},"ingredients":{"malt":[{"name":"Maris
+        Otter Extra Pale","amount":{"value":3.3,"unit":"kilograms"}},{"name":"Caramalt","amount":{"value":0.2,"unit":"kilograms"}},{"name":"Munich","amount":{"value":0.4,"unit":"kilograms"}}],"hops":[{"name":"Fuggles","amount":{"value":25,"unit":"grams"},"add":"start","attribute":"bitter"},{"name":"First
+        Gold","amount":{"value":25,"unit":"grams"},"add":"start","attribute":"bitter"},{"name":"Fuggles","amount":{"value":37.5,"unit":"grams"},"add":"middle","attribute":"flavour"},{"name":"First
+        Gold","amount":{"value":37.5,"unit":"grams"},"add":"middle","attribute":"flavour"},{"name":"Cascade","amount":{"value":37.5,"unit":"grams"},"add":"end","attribute":"flavour"}],"yeast":"Wyeast
+        1056 - American Ale™"},"food_pairing":["Spicy chicken tikka masala","Grilled
+        chicken quesadilla","Caramel toffee cake"],"brewers_tips":"The earthy and
+        floral aromas from the hops can be overpowering. Drop a little Cascade in
+        at the end of the boil to lift the profile with a bit of citrus.","contributed_by":"Sam
+        Mason <samjbmason>"}]'
+  recorded_at: Thu, 26 Oct 2023 09:24:20 GMT
+recorded_with: VCR 6.2.0

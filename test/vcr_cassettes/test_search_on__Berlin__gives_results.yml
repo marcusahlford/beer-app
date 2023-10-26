@@ -1,0 +1,150 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.punkapi.com/v2/beers?beer_name=Berlin&per_page=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Thu, 26 Oct 2023 09:24:26 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - "*"
+      access-control-expose-headers:
+      - x-ratelimit-limit,x-ratelimit-remaining,content-length,origin,content-type,accept
+      age:
+      - '51878'
+      cache-control:
+      - public, max-age=14400, must-revalidate
+      etag:
+      - W/"233c-jjKFTPN5XThBUEvGdfX5+8IxRiM"
+      strict-transport-security:
+      - max-age=15552000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-ratelimit-limit:
+      - '3600'
+      x-ratelimit-remaining:
+      - '3183'
+      x-ratelimit-reset:
+      - '1698261353'
+      x-vercel-cache:
+      - MISS
+      x-vercel-id:
+      - fra1::sfo1::b9tgk-1698260388077-f557da2753c4
+      x-xss-protection:
+      - 1; mode=block
+      cf-cache-status:
+      - HIT
+      report-to:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ci6eG%2B4WKffMQSplCQblrA7v9av35v6YqVgYB0O%2BuhcPDPQ24c7mCJo8btYCQk5vW57kSwgNydci5VXNLvJ1o%2BDxexdw2pXIRUqKoYl6mWYyRB%2BtdHb4glBFOitn%2F9qLp70%3D"}],"group":"cf-nel","max_age":604800}'
+      nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      vary:
+      - Accept-Encoding
+      server:
+      - cloudflare
+      cf-ray:
+      - 81c1a56fcc02365c-FRA
+      content-encoding:
+      - gzip
+      alt-svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: '[{"id":3,"name":"Berliner Weisse With Yuzu - B-Sides","tagline":"Japanese
+        Citrus Berliner Weisse.","first_brewed":"11/2015","description":"Japanese
+        citrus fruit intensifies the sour nature of this German classic.","image_url":"https://images.punkapi.com/v2/keg.png","abv":4.2,"ibu":8,"target_fg":1007,"target_og":1040,"ebc":8,"srm":4,"ph":3.2,"attenuation_level":83,"volume":{"value":20,"unit":"litres"},"boil_volume":{"value":25,"unit":"litres"},"method":{"mash_temp":[{"temp":{"value":60,"unit":"celsius"},"duration":10},{"temp":{"value":65,"unit":"celsius"},"duration":30},{"temp":{"value":72,"unit":"celsius"},"duration":10},{"temp":{"value":78,"unit":"celsius"},"duration":5}],"fermentation":{"temp":{"value":21,"unit":"celsius"}},"twist":"Soured
+        naturally using the kettle souring technique, Yuzu fruit: 50g at middle, Yuzu
+        juice: 200ml at FV"},"ingredients":{"malt":[{"name":"Propino Pale Malt","amount":{"value":1.63,"unit":"kilograms"}},{"name":"Wheat
+        Malt","amount":{"value":1.63,"unit":"kilograms"}},{"name":"Propino Pale Malt
+        for kettle souring","amount":{"value":0.03,"unit":"kilograms"}},{"name":"Acidulated
+        Malt for kettle souring","amount":{"value":0.03,"unit":"kilograms"}}],"hops":[{"name":"Bramling
+        Cross","amount":{"value":10,"unit":"grams"},"add":"middle","attribute":"bitter"}],"yeast":"Wyeast
+        1056 - American Ale™"},"food_pairing":["Smoked chicken wings","Miso ramen","Yuzu
+        cheesecake"],"brewers_tips":"Clean everything twice. All you want is the clean
+        sourness of lactobacillus.","contributed_by":"Sam Mason <samjbmason>"},{"id":35,"name":"Berliner
+        Weisse With Raspberries And Rhubarb - B-Sides","tagline":"Fruity Berliner
+        Weisse.","first_brewed":"11/2015","description":"Tart, dry and acidic with
+        a punch of summer berry as rhubarb crumble.","image_url":"https://images.punkapi.com/v2/keg.png","abv":3.6,"ibu":8,"target_fg":1007,"target_og":1040,"ebc":null,"srm":null,"ph":3.2,"attenuation_level":83,"volume":{"value":20,"unit":"litres"},"boil_volume":{"value":25,"unit":"litres"},"method":{"mash_temp":[{"temp":{"value":60,"unit":"celsius"},"duration":10},{"temp":{"value":65,"unit":"celsius"},"duration":30},{"temp":{"value":72,"unit":"celsius"},"duration":10},{"temp":{"value":78,"unit":"celsius"},"duration":5}],"fermentation":{"temp":{"value":21,"unit":"celsius"}},"twist":"Raspberries
+        in the boil, rhubarb at maturation. Soured naturally using the kettle souring
+        technique, Raspberries at middle"},"ingredients":{"malt":[{"name":"Propino
+        Pale Malt","amount":{"value":1.63,"unit":"kilograms"}},{"name":"Wheat Malt","amount":{"value":1.63,"unit":"kilograms"}},{"name":"Propino
+        Pale Malt for kettle souring","amount":{"value":0.03,"unit":"kilograms"}},{"name":"Acidulated
+        Malt for kettle souring","amount":{"value":0.03,"unit":"kilograms"}}],"hops":[{"name":"Bramling
+        Cross","amount":{"value":10,"unit":"grams"},"add":"middle","attribute":"bitter"}],"yeast":"Wyeast
+        1056 - American Ale™"},"food_pairing":["Grilled salmon","Mac and cheese fries","Cheesecake
+        with raspberry coulis"],"brewers_tips":"Fruits added at the end of the boil
+        for 10 mins and additional added in maturation. Boil for no more than 15 mins.","contributed_by":"Sam
+        Mason <samjbmason>"},{"id":160,"name":"Restorative Beverage For Invalids And
+        Convalescents","tagline":"An Extract Taken From \"A Treatise on Food and Diet\"
+        By Dr Jonathan Pereira, 1843.","first_brewed":"02/2015","description":"Brewed
+        to 8.5%, light as a mass market Pilsner in colour, fermented to be as dry
+        as a Lambic, but as bitter as any double IPA and loaded with as much hop aroma
+        as we can get into a beer. The fermentables in this beer were Maris Otter
+        Extra Pale along with plenty of sugar as we mashed at a very low temperature
+        to ensure maximum fermentability and attenuation. This beer is fermented within
+        an inch of its life making it dry, sheer and bright. Citra, Amarillo & Centennial
+        were all used in abundance in the kettle and also fired extremely liberally
+        at this beer with our high tech hop cannon.","image_url":"https://images.punkapi.com/v2/160.png","abv":8.5,"ibu":100,"target_fg":1003,"target_og":1068,"ebc":15,"srm":7.5,"ph":4.4,"attenuation_level":95.6,"volume":{"value":20,"unit":"litres"},"boil_volume":{"value":25,"unit":"litres"},"method":{"mash_temp":[{"temp":{"value":63,"unit":"celsius"},"duration":90}],"fermentation":{"temp":{"value":21,"unit":"celsius"}},"twist":null},"ingredients":{"malt":[{"name":"Maris
+        Otter Extra Pale","amount":{"value":5.25,"unit":"kilograms"}},{"name":"White
+        Cane Sugar","amount":{"value":0.88,"unit":"kilograms"}}],"hops":[{"name":"C02
+        Extract","amount":{"value":10,"unit":"grams"},"add":"start","attribute":"bitter"},{"name":"Citra","amount":{"value":37.5,"unit":"grams"},"add":"end","attribute":"flavour"},{"name":"Amarillo","amount":{"value":37.5,"unit":"grams"},"add":"end","attribute":"flavour"},{"name":"Centennial","amount":{"value":37.5,"unit":"grams"},"add":"end","attribute":"flavour"},{"name":"Citra","amount":{"value":100,"unit":"grams"},"add":"dry
+        hop","attribute":"aroma"},{"name":"Amarillo","amount":{"value":100,"unit":"grams"},"add":"dry
+        hop","attribute":"aroma"},{"name":"Centennial","amount":{"value":100,"unit":"grams"},"add":"dry
+        hop","attribute":"aroma"}],"yeast":"Wyeast 1272 - American Ale II™"},"food_pairing":["Habanero
+        spicy chicken wings with ranch sauce","Jalapeño chilli and chicken quesadillas","New
+        York style cheesecake"],"brewers_tips":"Allow the mash to sit at lower temperatures
+        for an extended period to convert the maximum amount of starch to fermetable
+        sugars. This will give the beer a higher ABV and dry it out.","contributed_by":"Sam
+        Mason <samjbmason>"},{"id":193,"name":"Blitz Berliner Weisse","tagline":"Berliner
+        Fruit Beer.","first_brewed":"07/2013","description":"Our sour recipe for all
+        fruit Blitz beers uses a process called kettle souring. In this we steep a
+        bag of malt in the wort to allow the bacteria to grow in it.","image_url":"https://images.punkapi.com/v2/keg.png","abv":3,"ibu":8,"target_fg":1040,"target_og":1007,"ebc":9,"srm":4.5,"ph":3.2,"attenuation_level":82.5,"volume":{"value":20,"unit":"litres"},"boil_volume":{"value":25,"unit":"litres"},"method":{"mash_temp":[{"temp":{"value":65,"unit":"celsius"},"duration":60}],"fermentation":{"temp":{"value":19,"unit":"celsius"}},"twist":"Before
+        main fermentation steep a bag of malt in the wort for 48 hours. Re boil the
+        wort before pitching in the yeast for the main fermentation."},"ingredients":{"malt":[{"name":"Extra
+        Pale","amount":{"value":1.88,"unit":"kilograms"}},{"name":"Wheat","amount":{"value":1.88,"unit":"kilograms"}}],"hops":[{"name":"Magnum","amount":{"value":8.5,"unit":"grams"},"add":"start","attribute":"bitter"}],"yeast":"Wyeast
+        1056 - American Ale™"},"food_pairing":["Grilled salmon with a light lemon
+        sauce","Lobster bisque","Cheesecake with raspberry (or peach/passion fruit)
+        sauce"],"brewers_tips":"Making sour beers is an art, and is mostly related
+        to trial and error with your process. Experiment with different temperatures
+        for steeping the grain. 40 - 50°C willallow the lacto to grow and produce
+        a clean profile.","contributed_by":"Ali Skinner <AliSkinner>"},{"id":269,"name":"Small
+        Batch: Imperial Pale Weizen","tagline":"Dry-Hopped Wheat Beer.","first_brewed":"2017","description":"An
+        amplified version of a style we first brewed with Weihenstephan. A full-on
+        deluge of spice and citrus, the new world hops bring spiced orange, lemon
+        peel and fresh grassy and floral notes while the weizen base adds pepper,
+        clove and banana.","image_url":"https://images.punkapi.com/v2/keg.png","abv":7.5,"ibu":25,"target_fg":1010,"target_og":1067,"ebc":18,"srm":9,"ph":4.4,"attenuation_level":85,"volume":{"value":20,"unit":"litres"},"boil_volume":{"value":25,"unit":"litres"},"method":{"mash_temp":[{"temp":{"value":65,"unit":"celsius"},"duration":90}],"fermentation":{"temp":{"value":21,"unit":"celsius"}},"twist":null},"ingredients":{"malt":[{"name":"Maris
+        Otter","amount":{"value":3.74,"unit":"kilograms"}},{"name":"White Wheat","amount":{"value":2.267,"unit":"kilograms"}},{"name":"Extra
+        Dark Crystal","amount":{"value":0.091,"unit":"kilograms"}}],"hops":[{"name":"Magnum","amount":{"value":10,"unit":"grams"},"add":"60","attribute":"Bitter"},{"name":"Ariana","amount":{"value":12,"unit":"grams"},"add":"15","attribute":"Flavour"},{"name":"Cascade","amount":{"value":12,"unit":"grams"},"add":"15","attribute":"Flavour"},{"name":"Mandarina
+        Bavaria","amount":{"value":12,"unit":"grams"},"add":"15","attribute":"Flavour"},{"name":"Ariana","amount":{"value":10,"unit":"grams"},"add":"Dry
+        Hop","attribute":"Aroma"},{"name":"Mandarina Bavaria","amount":{"value":10,"unit":"grams"},"add":"Dry
+        Hop","attribute":"Flavour"}],"yeast":"WLP351 - Bavarian Weizen"},"food_pairing":["Soft
+        pretzel with mustard","Hot Smoked Salmon Salad","Rum Fried Banana"],"brewers_tips":"A
+        German style wheat beer that is mostly defined by its yeast character. Yeast
+        strain has a massive influence on the final perception of the beer.","contributed_by":"John
+        Jenkman <johnjenkman>"}]'
+  recorded_at: Thu, 26 Oct 2023 09:24:26 GMT
+recorded_with: VCR 6.2.0

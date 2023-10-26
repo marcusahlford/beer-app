@@ -1,0 +1,157 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.punkapi.com/v2/beers/1000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      date:
+      - Thu, 26 Oct 2023 09:24:20 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - "*"
+      access-control-expose-headers:
+      - x-ratelimit-limit,x-ratelimit-remaining,content-length,origin,content-type,accept
+      age:
+      - '36556'
+      cache-control:
+      - public, max-age=14400, must-revalidate
+      etag:
+      - W/"59-mZEY0QnWCw/JJdZucCRJB7yyKkU"
+      strict-transport-security:
+      - max-age=15552000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-ratelimit-limit:
+      - '3600'
+      x-ratelimit-remaining:
+      - '3274'
+      x-ratelimit-reset:
+      - '1698277113'
+      x-vercel-cache:
+      - MISS
+      x-vercel-id:
+      - fra1::sfo1::6hv7t-1698275704363-23f0f1c82e9d
+      x-xss-protection:
+      - 1; mode=block
+      cf-cache-status:
+      - HIT
+      report-to:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=s%2BPj3jEeCCLYUzMady37RJt%2FnTcy4O3p3GKgIXKTcu4ELOczph%2BLBbaZP93xwzb0JYOS%2FGkY0HmWpb7GKPSpEr0n5hcmJHexuhJVLtBMxf2YHSFPR6Czkmz%2BWtOnrPgCFtQ%3D"}],"group":"cf-nel","max_age":604800}'
+      nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      vary:
+      - Accept-Encoding
+      server:
+      - cloudflare
+      cf-ray:
+      - 81c1a54b3a3e65d0-FRA
+      content-encoding:
+      - gzip
+      alt-svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: '{"statusCode":404,"error":"Not Found","message":"No beer found that
+        matches the ID 1000"}'
+  recorded_at: Thu, 26 Oct 2023 09:24:20 GMT
+- request:
+    method: get
+    uri: https://api.punkapi.com/v2/beers/1000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      date:
+      - Thu, 26 Oct 2023 09:24:20 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - "*"
+      access-control-expose-headers:
+      - x-ratelimit-limit,x-ratelimit-remaining,content-length,origin,content-type,accept
+      age:
+      - '37621'
+      cache-control:
+      - public, max-age=14400, must-revalidate
+      etag:
+      - W/"59-mZEY0QnWCw/JJdZucCRJB7yyKkU"
+      strict-transport-security:
+      - max-age=15552000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-ratelimit-limit:
+      - '3600'
+      x-ratelimit-remaining:
+      - '3438'
+      x-ratelimit-reset:
+      - '1698277113'
+      x-vercel-cache:
+      - MISS
+      x-vercel-id:
+      - fra1::sfo1::7ltvm-1698274638738-366a71cc9eca
+      x-xss-protection:
+      - 1; mode=block
+      cf-cache-status:
+      - HIT
+      report-to:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6F4Y21pJ20ICBiWWI7U8it%2Bt%2B2m3ks%2B2XMIKM7Q%2Fd3%2BCfVmoiDw8kBi750G9JJZ9pop7eN4TaWIH9awGm1ORLYD7NNYWlNkEywFFaO%2FfvRNT2lB1t9gIihwzzkwmko%2Fsmrw%3D"}],"group":"cf-nel","max_age":604800}'
+      nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      vary:
+      - Accept-Encoding
+      server:
+      - cloudflare
+      cf-ray:
+      - 81c1a54c7ec63a97-FRA
+      content-encoding:
+      - gzip
+      alt-svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: '{"statusCode":404,"error":"Not Found","message":"No beer found that
+        matches the ID 1000"}'
+  recorded_at: Thu, 26 Oct 2023 09:24:20 GMT
+recorded_with: VCR 6.2.0

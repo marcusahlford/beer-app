@@ -1,0 +1,11 @@
+<nav class="flex items-center justify-between mt-8">
+  <div class="flex w-0 flex-1">
+    <%= render PaginationPreviousLinkComponent.new(paginator: @paginator, url: @url) %>
+  </div>
+
+  <div class="text-sm text-gray-500">Showing <%= @paginator.offset + 1 %> to <%= @paginator.offset + @paginator.count %></div>
+
+  <div class="flex w-0 flex-1 justify-end">
+    <%= render PaginationNextLinkComponent.new(paginator: @paginator, url: @url) %>
+  </div>
+</nav>

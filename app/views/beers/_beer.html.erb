@@ -1,0 +1,14 @@
+<div class="group relative">
+  <div class="rounded-lg bg-zinc-50 group-hover:bg-zinc-100 ">
+    <%= render BeerImageComponent.new(beer) %>
+  </div>
+
+  <h2 class="mt-4 text-base font-semibold text-gray-900">
+    <%= link_to beer, data: {turbo_frame: '_top' } do %>
+      <span class="absolute inset-0"></span>
+      <%= truncate(beer.name, length: 25) %>
+    <% end %>
+  </h2>
+
+  <p class="mt-1 text-sm text-gray-500"><%= beer.abv %>% vol</p>
+</div>

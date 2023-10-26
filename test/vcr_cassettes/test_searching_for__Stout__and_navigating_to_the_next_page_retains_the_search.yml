@@ -1,0 +1,295 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.punkapi.com/v2/beers?beer_name=Stout&per_page=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Thu, 26 Oct 2023 09:24:18 GMT
+      content-type:
+      - application/json; charset=utf-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - keep-alive
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - "*"
+      access-control-expose-headers:
+      - x-ratelimit-limit,x-ratelimit-remaining,content-length,origin,content-type,accept
+      age:
+      - '35236'
+      cache-control:
+      - public, max-age=14400, must-revalidate
+      etag:
+      - W/"4d4e-SoMiaaIp998wga6RPJAzc28NopA"
+      strict-transport-security:
+      - max-age=15552000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-ratelimit-limit:
+      - '3600'
+      x-ratelimit-remaining:
+      - '3046'
+      x-ratelimit-reset:
+      - '1698277113'
+      x-vercel-cache:
+      - MISS
+      x-vercel-id:
+      - fra1::sfo1::9g2l8-1698277021883-4df3b3a07750
+      x-xss-protection:
+      - 1; mode=block
+      cf-cache-status:
+      - HIT
+      report-to:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Dl3I2qphUsoUhDi%2FvFmndu1xUXNt02dK58EqlDHEQmMxDAq2lQACO4sSsuye8h8xYbNroS%2F%2BSQDw6LLQV%2ByuUp1inwlvI488e0hO82NqunMNkmRKR7UWNqJGqYAT%2FDDxZaI%3D"}],"group":"cf-nel","max_age":604800}'
+      nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      vary:
+      - Accept-Encoding
+      server:
+      - cloudflare
+      cf-ray:
+      - 81c1a540e9ab3aa0-FRA
+      content-encoding:
+      - gzip
+      alt-svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: '[{"id":11,"name":"Misspent Youth","tagline":"Milk & Honey Scotch Ale.","first_brewed":"04/2013","description":"The
+        brainchild of our small batch brewer, George Woods. A dangerously drinkable
+        milk sugar- infused Scotch Ale.","image_url":"https://images.punkapi.com/v2/keg.png","abv":7.3,"ibu":30,"target_fg":1020,"target_og":1079,"ebc":120,"srm":60,"ph":4.4,"attenuation_level":74.7,"volume":{"value":20,"unit":"litres"},"boil_volume":{"value":25,"unit":"litres"},"method":{"mash_temp":[{"temp":{"value":67,"unit":"celsius"},"duration":75}],"fermentation":{"temp":{"value":19,"unit":"celsius"}},"twist":"See
+        honey and lactose additions"},"ingredients":{"malt":[{"name":"Pale Ale","amount":{"value":2.18,"unit":"kilograms"}},{"name":"Caramalt","amount":{"value":0.3,"unit":"kilograms"}},{"name":"Dark
+        Crystal","amount":{"value":0.3,"unit":"kilograms"}},{"name":"Smoked Weyermann","amount":{"value":1.8,"unit":"kilograms"}},{"name":"Flaked
+        Oats","amount":{"value":0.6,"unit":"kilograms"}},{"name":"Brown","amount":{"value":0.6,"unit":"kilograms"}},{"name":"Amber","amount":{"value":0.1,"unit":"kilograms"}},{"name":"Chocolate","amount":{"value":0.05,"unit":"kilograms"}},{"name":"Munich","amount":{"value":0.6,"unit":"kilograms"}},{"name":"Crystal
+        150","amount":{"value":0.2,"unit":"kilograms"}}],"hops":[{"name":"First Gold","amount":{"value":25,"unit":"grams"},"add":"start","attribute":"bitter"},{"name":"Fuggles","amount":{"value":25,"unit":"grams"},"add":"start","attribute":"bitter"},{"name":"Honey","amount":{"value":250,"unit":"grams"},"add":"middle","attribute":"Flavour"},{"name":"Lactose","amount":{"value":375,"unit":"grams"},"add":"middle","attribute":"Flavour"},{"name":"First
+        Gold","amount":{"value":10,"unit":"grams"},"add":"end","attribute":"aroma"},{"name":"Fuggles","amount":{"value":10,"unit":"grams"},"add":"end","attribute":"aroma"}],"yeast":"Wyeast
+        1056 - American Ale™"},"food_pairing":["Roasted garlic and chilli infused
+        camembert cheese","Korean style chicken wings","Chocolate milk shake"],"brewers_tips":"Lots
+        of malt in this one. Mash-in in stages, and spread the pale ale malt throughout
+        the mash to provide stability. If the mash starts to sink, stop, wait a few
+        minutes while mixing, then start again.","contributed_by":"Sam Mason <samjbmason>"},{"id":58,"name":"Coffee
+        Imperial Stout","tagline":"Beats a Cup of Joe.","first_brewed":"11/2008","description":"This
+        beer was released as both as \"Danish Beerhouse Coffee Imperial Stout\" and
+        \"BrewDog Coffee Imperial Stout\". Deep, dark, roasted flavours make this
+        a perfect Sunday brunch beer.","image_url":"https://images.punkapi.com/v2/58.png","abv":9,"ibu":65,"target_fg":1019,"target_og":1080,"ebc":97,"srm":49,"ph":4.4,"attenuation_level":76,"volume":{"value":20,"unit":"litres"},"boil_volume":{"value":25,"unit":"litres"},"method":{"mash_temp":[{"temp":{"value":64,"unit":"celsius"},"duration":90}],"fermentation":{"temp":{"value":19,"unit":"celsius"}},"twist":"Coffee
+        added after boil. Aged on French oak chips., Dark muscovado sugar: 312.5g
+        for 20mins"},"ingredients":{"malt":[{"name":"Extra Pale","amount":{"value":7.5,"unit":"kilograms"}},{"name":"Dark
+        Crystal","amount":{"value":0.63,"unit":"kilograms"}},{"name":"Chocolate","amount":{"value":0.31,"unit":"kilograms"}},{"name":"Roasted
+        Barley","amount":{"value":0.31,"unit":"kilograms"}}],"hops":[{"name":"Chinook","amount":{"value":25,"unit":"grams"},"add":"start","attribute":"bitter"},{"name":"Galena","amount":{"value":25,"unit":"grams"},"add":"start","attribute":"bitter"},{"name":"Galena","amount":{"value":25,"unit":"grams"},"add":"end","attribute":"flavour"},{"name":"First
+        Gold","amount":{"value":25,"unit":"grams"},"add":"end","attribute":"flavour"},{"name":"Coffee","amount":{"value":9.4,"unit":"grams"},"add":"end","attribute":"flavour"},{"name":"Coffee","amount":{"value":9.4,"unit":"grams"},"add":"dry
+        hop","attribute":"aroma"}],"yeast":"Wyeast 1056 - American Ale™"},"food_pairing":["Gooey
+        chocolate brownies","Chicken fried steak with cheesy mash","Spicy chicken
+        empanadas"],"brewers_tips":"Grind the coffee as if making an espresso to really
+        get the most out of it.","contributed_by":"Sam Mason <samjbmason>"},{"id":70,"name":"Sunmaid
+        Stout","tagline":"Rum & Raisin Imperial Stout.","first_brewed":"12/2011","description":"Brewed
+        by Chris Sartori from Stone Brewing Company in 2010. A dark chocolate stout
+        with dried dark fruit finish. Simcoe provides bitterness with subtle fruity
+        supporting notes, contrasting the chocolate and coffee-laden malt profile.
+        The finish is warming with vanilla and rich dark fruit depth.","image_url":"https://images.punkapi.com/v2/keg.png","abv":10.2,"ibu":50,"target_fg":1102,"target_og":1026,"ebc":197,"srm":100,"ph":4.4,"attenuation_level":74.5,"volume":{"value":20,"unit":"litres"},"boil_volume":{"value":25,"unit":"litres"},"method":{"mash_temp":[{"temp":{"value":65,"unit":"celsius"},"duration":55}],"fermentation":{"temp":{"value":21,"unit":"celsius"}},"twist":"Age
+        in whisky casks with rum soaked raisins"},"ingredients":{"malt":[{"name":"Pale
+        Ale - Tipple","amount":{"value":10,"unit":"kilograms"}},{"name":"Chocolate","amount":{"value":1.25,"unit":"kilograms"}},{"name":"Carafa
+        Special Malt Type 3","amount":{"value":0.94,"unit":"kilograms"}},{"name":"Crystal","amount":{"value":0.94,"unit":"kilograms"}},{"name":"Flaked
+        Oats","amount":{"value":1.56,"unit":"kilograms"}}],"hops":[{"name":"Simcoe","amount":{"value":37.5,"unit":"grams"},"add":"start","attribute":"bitter"},{"name":"Challenger","amount":{"value":25,"unit":"grams"},"add":"end","attribute":"flavour"}],"yeast":"Wyeast
+        1272 - American Ale II™"},"food_pairing":["Lapin aux pruneaux (braised rabbit
+        with prunes)","Gouda cheese","Dark chocolate truffles"],"brewers_tips":"Take
+        small volume of wort out of the run off and steep the raisins in it, then
+        crush them up. This will help to release the dark fruit aromas into the wort.","contributed_by":"Sam
+        Mason <samjbmason>"},{"id":96,"name":"Lumberjack Stout","tagline":"Blueberry
+        Bacon Stout.","first_brewed":"12/2013","description":"Lumberjack Stout is
+        an intense beast that took its inspriation from what an actual bona-fide lumberjack
+        might have for breakfast. Flavours of molasses, chocolate, smoke, berry, coffee
+        and more, with a low bitterness, leaning this beer firmly towards the malty
+        side.","image_url":"https://images.punkapi.com/v2/keg.png","abv":15.2,"ibu":20,"target_fg":1020,"target_og":1110,"ebc":158,"srm":79,"ph":4.4,"attenuation_level":82,"volume":{"value":20,"unit":"litres"},"boil_volume":{"value":25,"unit":"litres"},"method":{"mash_temp":[{"temp":{"value":65,"unit":"celsius"},"duration":105}],"fermentation":{"temp":{"value":21,"unit":"celsius"}},"twist":"Blueberries,
+        maple syrup and coffee, then aged in ex Grain whisky casks. Maple Syrup: 50g
+        at end. Blueberries: 100g at middle."},"ingredients":{"malt":[{"name":"Extra
+        Pale","amount":{"value":10.63,"unit":"kilograms"}},{"name":"Carafa Special
+        Malt Type 3","amount":{"value":1.25,"unit":"kilograms"}},{"name":"Flaked Oats","amount":{"value":2.19,"unit":"kilograms"}},{"name":"Smoked
+        Malt","amount":{"value":0.63,"unit":"kilograms"}},{"name":"Crystal","amount":{"value":1.25,"unit":"kilograms"}}],"hops":[{"name":"Galena","amount":{"value":36,"unit":"grams"},"add":"start","attribute":"bitter"},{"name":"Willamette","amount":{"value":37.5,"unit":"grams"},"add":"end","attribute":"flavour"}],"yeast":"Wyeast
+        1272 - American Ale II™"},"food_pairing":["Maple syrup drizzled chocolate
+        chip pancakes","Fried bacon with crispy honeycomb bits","Coffee cake"],"brewers_tips":"Adding
+        extra smoked malt will amp up the bacon character.","contributed_by":"Ali
+        Skinner <AliSkinner>"},{"id":110,"name":"Truffle and Chocolate Stout - B-Sides","tagline":"Gastronomic
+        Session Stout.","first_brewed":"03/2015","description":"Pilot Brew - Truffle
+        & Chocolate Stout. Deep, earthy roast notes make this a gastronome''s dream.","image_url":"https://images.punkapi.com/v2/keg.png","abv":5.6,"ibu":30,"target_fg":1015,"target_og":1058,"ebc":54,"srm":27,"ph":4.4,"attenuation_level":74,"volume":{"value":20,"unit":"litres"},"boil_volume":{"value":25,"unit":"litres"},"method":{"mash_temp":[{"temp":{"value":60,"unit":"celsius"},"duration":10},{"temp":{"value":65,"unit":"celsius"},"duration":30},{"temp":{"value":72,"unit":"celsius"},"duration":10},{"temp":{"value":78,"unit":"celsius"},"duration":5}],"fermentation":{"temp":{"value":19,"unit":"celsius"}},"twist":"Use
+        Perigold Truffles after fermentation"},"ingredients":{"malt":[{"name":"Extra
+        Pale","amount":{"value":5,"unit":"kilograms"}},{"name":"Special W","amount":{"value":0.63,"unit":"kilograms"}},{"name":"Roasted
+        Barley","amount":{"value":0.31,"unit":"kilograms"}},{"name":"Dark Crystal","amount":{"value":0.31,"unit":"kilograms"}}],"hops":[{"name":"Sorachi
+        Ace","amount":{"value":15,"unit":"grams"},"add":"start","attribute":"bitter"},{"name":"Sorachi
+        Ace","amount":{"value":10,"unit":"grams"},"add":"middle","attribute":"flavour"},{"name":"Sorachi
+        Ace","amount":{"value":10,"unit":"grams"},"add":"end","attribute":"flavour"},{"name":"Sorachi
+        Ace","amount":{"value":1.5,"unit":"grams"},"add":"dry hop","attribute":"aroma"}],"yeast":"Wyeast
+        1056 - American Ale™"},"food_pairing":["Mushroom pithivier","Roast pheasant
+        with savoy cabbage","Dark chocolate ganache macaroons"],"brewers_tips":"A
+        little truffle goes a long way. Add 5g, leave for a 2 days and add more if
+        needed.","contributed_by":"Iain Mullan <iainmullan>"},{"id":134,"name":"Mr.Miyagi''s
+        Wasabi Stout","tagline":"Spicy Stout Brewed By Aberdeen Bar Staff.","first_brewed":"09/2011","description":"Invented
+        by and brewed by Dan Bloxham, no matter what anyone else says. A medium bodied,
+        bitter, US style stout, with a wasabi warmth, a subtle earthiness and a hint
+        of soy sauce.","image_url":"https://images.punkapi.com/v2/keg.png","abv":7.5,"ibu":90,"target_fg":1015,"target_og":1072,"ebc":200,"srm":102,"ph":4.4,"attenuation_level":79.2,"volume":{"value":20,"unit":"litres"},"boil_volume":{"value":25,"unit":"litres"},"method":{"mash_temp":[{"temp":{"value":65,"unit":"celsius"},"duration":null}],"fermentation":{"temp":{"value":21,"unit":"celsius"}},"twist":"Wasabi
+        Powder: 45g at end, Wasabi Paste: 75g at end"},"ingredients":{"malt":[{"name":"Maris
+        Otter Extra Pale","amount":{"value":6,"unit":"kilograms"}},{"name":"Chocolate","amount":{"value":0.5,"unit":"kilograms"}},{"name":"Flaked
+        Oats","amount":{"value":0.5,"unit":"kilograms"}},{"name":"Crystal","amount":{"value":0.5,"unit":"kilograms"}},{"name":"Black
+        Malt","amount":{"value":0.25,"unit":"kilograms"}},{"name":"Roasted Malt","amount":{"value":0.25,"unit":"kilograms"}}],"hops":[{"name":"Chinook","amount":{"value":81.25,"unit":"grams"},"add":"start","attribute":"bitter"},{"name":"Sorachi
+        Ace","amount":{"value":62.5,"unit":"grams"},"add":"end","attribute":"flavour"}],"yeast":"Wyeast
+        1272 - American Ale II™"},"food_pairing":["California sushi rolls with fresh
+        crab and wasabi infused soy sauce","Spicy chilli and coriander Thai beef stew","Carrot
+        and coriander rich cake"],"brewers_tips":"During mashing in use only pale
+        malts, add flaked oats during the second half of the mashing process. If you
+        can''t get real wasabi, substitute for some horseradish to get the peppery
+        heat in the beer.","contributed_by":"Sam Mason <samjbmason>"},{"id":155,"name":"Old
+        World Russian Imperial Stout","tagline":"Russian Imperial Stout.","first_brewed":"10/2011","description":"This
+        Old World Stout perfectly recreates the export stouts of years gone by; brewed
+        to imperial strength to avoid freezing during its journey across the Baltic
+        Sea to snowy Moscow. Full bodied with huge chocolate, coffee and roast flavours,
+        this imperial stout employs a variety of hops to add enough bitterness and
+        hop complexity to balance the huge malt sweetness and rich mocha and molasses
+        flavours.","image_url":"https://images.punkapi.com/v2/155.png","abv":9.5,"ibu":80,"target_fg":1014,"target_og":1075,"ebc":195,"srm":97.5,"ph":4.5,"attenuation_level":81.3,"volume":{"value":20,"unit":"litres"},"boil_volume":{"value":25,"unit":"litres"},"method":{"mash_temp":[{"temp":{"value":64,"unit":"celsius"},"duration":90}],"fermentation":{"temp":{"value":19,"unit":"celsius"}},"twist":null},"ingredients":{"malt":[{"name":"Extra
+        Pale","amount":{"value":6.56,"unit":"kilograms"}},{"name":"Dark Crystal 350","amount":{"value":0.66,"unit":"kilograms"}},{"name":"Carafa
+        Special Malt Type 3","amount":{"value":0.31,"unit":"kilograms"}},{"name":"Caramalt","amount":{"value":0.31,"unit":"kilograms"}},{"name":"Chocolate","amount":{"value":0.07,"unit":"kilograms"}}],"hops":[{"name":"Magnum","amount":{"value":12.5,"unit":"grams"},"add":"start","attribute":"bitter"},{"name":"Galena","amount":{"value":12.5,"unit":"grams"},"add":"start","attribute":"bitter"},{"name":"Hercules","amount":{"value":12.5,"unit":"grams"},"add":"start","attribute":"bitter"},{"name":"Magnum","amount":{"value":6.25,"unit":"grams"},"add":"start","attribute":"bitter"},{"name":"Galena","amount":{"value":6.25,"unit":"grams"},"add":"start","attribute":"bitter"},{"name":"Cascade","amount":{"value":25,"unit":"grams"},"add":"end","attribute":"flavour"},{"name":"Galena","amount":{"value":25,"unit":"grams"},"add":"end","attribute":"flavour"}],"yeast":"Wyeast
+        1272 - American Ale II™"},"food_pairing":["Seared steak with a peppercorn
+        sauce","Strong blue cheese and oatcakes","Chocolate cheesecake"],"brewers_tips":"Add
+        the chocolate malt after the mash is complete, at the start of sparging. This
+        will extract flavour and colour, but will prevent the extraction of harsh
+        tannins into the wort.","contributed_by":"Sam Mason <samjbmason>"},{"id":209,"name":"Stereo
+        Wolf Stout - Prototype Challenge","tagline":"Dark Audio Storm.","first_brewed":"02/2015","description":"Roasty,
+        dark and complex, Stereo Wolf is a 5.2% ABV Stout brewed with a cacophony
+        of hop-driven fruit and spice. Dark chocolate stalks alongside the resonating
+        bitterness, through to Stereo Wolf’s lingering dry finish. Balancing roasty
+        malt and new world hops at 5.2% ABV is no mean feat, but Stereo Wolf takes
+        it in its stride.","image_url":"https://images.punkapi.com/v2/209.png","abv":5.2,"ibu":55,"target_fg":1014,"target_og":1052,"ebc":200,"srm":100,"ph":5.2,"attenuation_level":73.1,"volume":{"value":20,"unit":"litres"},"boil_volume":{"value":25,"unit":"litres"},"method":{"mash_temp":[{"temp":{"value":65,"unit":"celsius"},"duration":75}],"fermentation":{"temp":{"value":19,"unit":"celsius"}},"twist":null},"ingredients":{"malt":[{"name":"Extra
+        Pale","amount":{"value":2.5,"unit":"kilograms"}},{"name":"Flaked Oats","amount":{"value":0.63,"unit":"kilograms"}},{"name":"Special
+        W","amount":{"value":0.38,"unit":"kilograms"}},{"name":"Roasted Barley","amount":{"value":0.38,"unit":"kilograms"}},{"name":"Carafa
+        Special Malt Type 1","amount":{"value":0.38,"unit":"kilograms"}},{"name":"Wheat","amount":{"value":0.63,"unit":"kilograms"}}],"hops":[{"name":"Galena","amount":{"value":7.5,"unit":"grams"},"add":"start","attribute":"bitter"},{"name":"Bramling
+        Cross","amount":{"value":12.5,"unit":"grams"},"add":"middle","attribute":"flavour"},{"name":"Willamette","amount":{"value":25,"unit":"grams"},"add":"end","attribute":"flavour"},{"name":"Centennial","amount":{"value":25,"unit":"grams"},"add":"end","attribute":"flavour"},{"name":"Centennial","amount":{"value":62.5,"unit":"grams"},"add":"dry
+        hop","attribute":"aroma"},{"name":"Willamette","amount":{"value":62.5,"unit":"grams"},"add":"dry
+        hop","attribute":"aroma"}],"yeast":"Wyeast 1056 - American Ale™"},"food_pairing":["Mississippi
+        style pork ribs","Chunky mild spice beef stew","Chocolate chunky cookies"],"brewers_tips":"Special
+        W is a specialty malt that creates an intense profile of nuts, raisins and
+        caramel. It provides a focal point for the malt base, that the hops can stack
+        against.","contributed_by":"Sam Mason <samjbmason>"},{"id":261,"name":"Small
+        Batch: Nitro Breakfast Stout","tagline":"Boozy Chocolate Milkshake.","first_brewed":"2017","description":"An
+        utterly indulgent, smooth as hell Stout. With opulent flavours of chocolate
+        milkshake, roasty espresso coffee, and mellow vanilla, this beer has a full-bodied
+        and creamy mouthfeel.","image_url":"https://images.punkapi.com/v2/keg.png","abv":8,"ibu":80,"target_fg":1027,"target_og":1092,"ebc":88,"srm":44.7,"ph":5.2,"attenuation_level":70,"volume":{"value":20,"unit":"litres"},"boil_volume":{"value":25,"unit":"litres"},"method":{"mash_temp":[{"temp":{"value":65,"unit":"celsius"},"duration":75}],"fermentation":{"temp":{"value":21,"unit":"celsius"}},"twist":null},"ingredients":{"malt":[{"name":"Extra
+        Pale","amount":{"value":4.38,"unit":"kilograms"}},{"name":"Flaked Oats","amount":{"value":0.62,"unit":"kilograms"}},{"name":"Brown","amount":{"value":0.62,"unit":"kilograms"}},{"name":"Dark
+        Crystal","amount":{"value":0.25,"unit":"kilograms"}},{"name":"Wheat","amount":{"value":0.25,"unit":"kilograms"}},{"name":"Carafa
+        Special Malt Type 1","amount":{"value":0.19,"unit":"kilograms"}}],"hops":[{"name":"Magnum","amount":{"value":37.5,"unit":"grams"},"add":"Start","attribute":"Bitter"},{"name":"Lactose","amount":{"value":262.5,"unit":"grams"},"add":"Middle","attribute":"Aroma"},{"name":"Vanilla
+        Extract","amount":{"value":25,"unit":"grams"},"add":"End","attribute":"Flavour"},{"name":"Cacao
+        Nibs","amount":{"value":25,"unit":"grams"},"add":"End","attribute":"Flavour"},{"name":"Coffee","amount":{"value":25,"unit":"grams"},"add":"End","attribute":"Flavour"}],"yeast":"Wyeast
+        1272 - American Ale II™"},"food_pairing":["Habanero Pulled Pork","Choc Chip
+        Cookies,","Black Pudding Croquettes"],"brewers_tips":"* Not a suitable replacement
+        for an actual breakfast. Nitroing at home is, well, not impossible but unlikely.
+        Luckily this beer tastes great when lightly carbonated too! Be prepared for
+        a slow runoff and don’t skimp on the cacao!","contributed_by":"John Jenkman
+        <johnjenkman>"},{"id":270,"name":"Blonde Export Stout","tagline":"Beatnik
+        Brewing Collective 2017.","first_brewed":"2017","description":"Our Equity
+        Punk gypsy brewery - Beatnik Brewing Collective - voted for this recipe as
+        their 2017 annual brew. A blonde stout brewed to export strength, the stout
+        character comes from extra ingredients instead of dark malts.","image_url":null,"abv":7,"ibu":55,"target_fg":1020,"target_og":1075,"ebc":16,"srm":8,"ph":4.4,"attenuation_level":73,"volume":{"value":20,"unit":"litres"},"boil_volume":{"value":25,"unit":"litres"},"method":{"mash_temp":[{"temp":{"value":66,"unit":"celsius"},"duration":30}],"fermentation":{"temp":{"value":19,"unit":"celsius"}},"twist":null},"ingredients":{"malt":[{"name":"Pale
+        Ale","amount":{"value":5.3,"unit":"kilograms"}},{"name":"Wheat","amount":{"value":0.8,"unit":"kilograms"}},{"name":"Flaked
+        Oats","amount":{"value":0.8,"unit":"kilograms"}},{"name":"Smoked Malt","amount":{"value":0.2,"unit":"kilograms"}}],"hops":[{"name":"Magnum","amount":{"value":7,"unit":"grams"},"add":"60","attribute":"Bittering"},{"name":"Mandarina
+        Bavaria","amount":{"value":33,"unit":"grams"},"add":"0","attribute":"Aroma"},{"name":"Callista","amount":{"value":33,"unit":"grams"},"add":"0","attribute":"Aroma"},{"name":"Ground
+        Coffee","amount":{"value":33,"unit":"grams"},"add":"0","attribute":"Aroma"},{"name":"Cocoa
+        Nibs","amount":{"value":33,"unit":"grams"},"add":"Dry Hop","attribute":"Flavour"},{"name":"Oak
+        Chips","amount":{"value":33,"unit":"grams"},"add":"Dry Hop","attribute":"Flavour"},{"name":"Vanilla","amount":{"value":3,"unit":"grams"},"add":"Dry
+        Hop","attribute":"Flavour"}],"yeast":"Wyeast 1272 - American Ale II™"},"food_pairing":["Duck
+        Crackling","Coq Au Vin","Oreo Cheesecake"],"brewers_tips":"An oxymoron of
+        a beer. The cocoa nibs are vital in providing that stout like flavour without
+        the associated colour.","contributed_by":"John Jenkman <johnjenkman>"}]'
+  recorded_at: Thu, 26 Oct 2023 09:24:18 GMT
+- request:
+    method: get
+    uri: https://api.punkapi.com/v2/beers?beer_name=Stout&page=2&per_page=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Thu, 26 Oct 2023 09:24:19 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '2'
+      connection:
+      - keep-alive
+      access-control-allow-credentials:
+      - 'true'
+      access-control-allow-origin:
+      - "*"
+      access-control-expose-headers:
+      - x-ratelimit-limit,x-ratelimit-remaining,content-length,origin,content-type,accept
+      age:
+      - '601'
+      cache-control:
+      - public, max-age=14400, must-revalidate
+      etag:
+      - W/"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w"
+      strict-transport-security:
+      - max-age=15552000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-ratelimit-limit:
+      - '3600'
+      x-ratelimit-remaining:
+      - '3554'
+      x-ratelimit-reset:
+      - '1698314618'
+      x-vercel-cache:
+      - MISS
+      x-vercel-id:
+      - fra1::sfo1::zqc4v-1698311658788-1a86f3a18132
+      x-xss-protection:
+      - 1; mode=block
+      cf-cache-status:
+      - HIT
+      accept-ranges:
+      - bytes
+      report-to:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=484wrd%2BY%2FRrix6c7mLW3v0L63QD9Q8vlU2YowaqPdPbyUZUfknA5jYY3a5XAXR15QGzL1uEQRxSegew7kpVPswS2WL1UkaBkVdggMm%2BosJzzDgL6POdCvhXtaC%2F5z47blC8%3D"}],"group":"cf-nel","max_age":604800}'
+      nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      vary:
+      - Accept-Encoding
+      server:
+      - cloudflare
+      cf-ray:
+      - 81c1a546081665c7-FRA
+      alt-svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: UTF-8
+      string: "[]"
+  recorded_at: Thu, 26 Oct 2023 09:24:19 GMT
+recorded_with: VCR 6.2.0
