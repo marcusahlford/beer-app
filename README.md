@@ -1,6 +1,6 @@
 # README
 
-This application is deployed to [http://161.35.147.106](http://161.35.147.106) with Docker using [Kamal](https://kamal-deploy.org).
+This application ~~is~~ was deployed to [http://161.35.147.106](http://161.35.147.106) with Docker using [Kamal](https://kamal-deploy.org).
 
 ## Technology Stack
 
